@@ -1,0 +1,279 @@
+@font-face {
+	font-family: 'Magyla';
+	src: 
+		url("/fonts/MAGYLA.ttf") format("truetype")
+}
+
+
+
+
+ body {
+     height: 97vh;
+    
+
+ }
+
+
+
+ .parent {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+
+
+    height: 100%;
+    background: white;
+    }
+    
+    .nav { grid-area: 1 / 1 / 2 / 9;
+    border-bottom: 2px solid black;
+    }
+
+    .logo {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        letter-spacing: 1px;
+        font-size: 5vh;
+    }
+
+    .burger {
+        position: absolute;
+        height: 20px;
+        width: 20px;
+        background: black;
+       
+        
+    }
+
+    .burger a {
+        color: black;
+        font-size: 15px;
+        position: center;
+    }
+
+    .van { grid-area: 2 / 2 / 4 / 3; 
+    background-color: rgb(208, 97, 56);
+    background-image: url(sip.png);
+    background-size: cover;
+    background-position: center;
+    transition: all 0.3s;
+    filter: grayscale(0%);
+    
+   }
+
+
+   .van:hover {
+      filter: grayscale(90%);
+   }
+   
+
+    .brieu { grid-area: 2 / 3 / 4 / 4; 
+    background-color: aqua;
+    background-image: url(brieuuu.JPG);
+    background-size: cover;
+    background-position: center;
+    transition: all 0.3s;
+    filter: grayscale(0%);
+    }
+
+    .brieu:hover {
+       
+        filter: grayscale(90%);
+    }
+
+
+    .cagoule { grid-area: 2 / 4 / 4 / 5; 
+    background-color: brown;
+    background-image: url(chev.JPG);
+    background-size: cover;
+    background-position: center;
+    transition: all 0.3s;
+    filter: grayscale(0%);
+    }
+
+    .cagoule:hover {
+       
+        filter: grayscale(90%);
+    }
+
+
+    .eli { grid-area: 2 / 5 / 4 / 6; 
+        background-color: rgb(32, 4, 4);
+    background-image: url(eli.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: all 0.3s;
+    filter:brightness(100%);}
+
+     .eli:hover {
+       
+        filter: brightness(160%);
+    }
+
+
+
+    .rod { grid-area: 2 / 6 / 4 / 7;
+        background-color: rgb(237, 202, 157);
+    background-image: url(rod.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: all 0.3s;
+     filter:brightness(100%);}
+
+
+.rod:hover {
+       
+        filter: brightness(160%);
+    }
+
+
+
+    .rem { grid-area: 2 / 7 / 4 / 8; 
+        background-color: rgb(151, 208, 208);
+    background-image: url(rem.png);
+    background-size: cover;
+    background-position: center;
+    transition: all 0.3s;
+    filter:brightness(100%);}
+
+     .rem:hover {
+       
+        filter: brightness(130%);
+    }
+
+
+
+
+
+    .fire { grid-area: 4 / 2 / 6 / 3;
+        background-color: rgb(186, 156, 178);
+    background-image: url(fire.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: all 0.3s;
+    filter: grayscale(0%)
+
+}
+
+
+.fire:hover {
+       
+    filter: grayscale(90%);
+}
+
+
+
+    .rose { grid-area: 4 / 3 / 6 / 4; 
+        background-color: aqua;
+        background-image: url(true.jpg);
+        background-size: cover;
+        background-position: center;
+        transition: all 0.3s;
+         filter: grayscale(0%);
+    }
+
+    .rose:hover {
+       
+        filter: grayscale(90%);
+    }
+
+
+    .nina { grid-area: 4 / 4 / 6 / 5;
+        background-color: rgb(218, 147, 210);
+        background-image: url(nina.jpg);
+        background-size: cover;
+        background-position: center;
+        transition: all 0.3s;
+         filter: grayscale(0%);
+     }
+
+     .nina:hover {
+       
+        filter: grayscale(90%);
+    }
+
+
+
+
+
+    .ivan { grid-area: 4 / 5 / 6 / 6;
+        background-color: rgb(185, 177, 228);
+        background-image: url(IVAN.jpg);
+        background-size: cover;
+        background-position: center;
+        transition: all 0.3s;
+        filter:brightness(100%);;
+     }
+
+
+     .ivan:hover {
+       
+        filter: brightness(160%);
+    }
+
+
+    .unr { grid-area: 4 / 6 / 6 / 7;
+         background-color: rgb(168, 223, 165);
+         background-image: url(unr.png);
+         background-size: cover;
+         background-position: left;
+         transition: all 0.3s;
+         filter:brightness(100%); }
+
+
+          .unr:hover {
+       
+            filter: brightness(135%);
+        }
+    
+
+    .dg { grid-area: 4 / 7 / 6 / 8;
+         background-color: aqua;
+         background-image: url(dg.jpg);
+         background-size: cover;
+         background-position: center;
+         transition: all 0.3s;
+         filter:brightness(80%);
+        }
+
+        .dg:hover {
+       
+            filter: brightness(110%);
+        }
+    
+
+
+    .side1 { grid-area: 2 / 1 / 6 / 2;
+     border-right: 2px solid black;}
+
+    .side2 { grid-area: 2 / 8 / 6 / 9;
+     border-left: 2px solid black;
+    }
+
+
+    .footer { grid-area: 6 / 1 / 7 / 9; 
+    border-top: 2px solid black;
+ font-family: 'Magyla' ;
+letter-spacing: 2px;
+}
+    
+
+ .button {
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     background: transparent;
+     background: 40px;
+     border: 0;
+     cursor: pointer;
+     color: white;
+ }
+
+
+ .div1 { grid-area: 2 / 2 / 4 / 3; 
+    background-color: rgb(208, 97, 56);
+    }
+
+
+.div2 { grid-area: 2 / 3 / 4 / 4; 
+    background-color: antiquewhite;
+}
