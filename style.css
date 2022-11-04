@@ -1,0 +1,176 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+body {
+
+    
+    letter-spacing:  4px;
+    background: white;
+    display: block;
+
+
+}
+
+.bloc {
+    position: relative;
+    height: 50vh;
+    width: 40%;
+    overflow: hidden;
+    padding-left: 10%;
+}
+
+
+
+.titre {
+    position: fixed;
+    top: 33%;  left: 85%;
+    transform: translate(-50%,-50%);
+    font-weight: 1500;
+    white-space: nowrap;
+    font-size: 170px;
+    color: rgb(137, 121, 121);
+    letter-spacing: 17px;
+    
+    animation: Scroll 27s linear infinite;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+.titre:hover {
+
+   color: black;
+
+}
+
+
+@keyframes Scroll {
+    0% {
+     transform: translateX(-90%);
+    }
+}
+
+
+
+
+
+.nav-list {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 24px;
+    
+}
+
+.nav-item {
+    margin-right: 5rem;
+text-transform: uppercase;
+font-weight: 400;
+
+
+}
+
+.nav-item a {
+    color: rgb(141, 139, 139);
+    letter-spacing: 5px;
+    font-family: sans-serif;
+}
+
+.nav-item a:hover {
+
+    color: black;
+ 
+ }
+
+.gallery {
+
+    position: top;
+    padding-top: 10px;
+}
+
+
+
+
+@media screen and (max-width: 1320px) {
+
+    .bloc {width: 100%;}
+
+    .titre {font-size: 130px;}
+    
+    .nav {
+       font-size: 17px;
+       padding: 1rem;
+       max-width: 70%;
+      
+    }
+
+ 
+
+
+    }
+
+
+@media screen and (max-width: 850px) {
+
+    .bloc {width: 75%;
+    left: 10%;
+    }
+}
+
+
+
+.parent {
+
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 9px;
+        grid-row-gap: 7px;
+    
+    padding-left: 25rem;
+    padding-right: 6rem;
+    
+    }
+    
+    .image { grid-area: 2 / 4 / 3 / 5;
+    background-image: url(lac.JPG);
+    background-size: cover;
+    width: 60vh; 
+    height: 30vh;
+    }
+
+    .image2 { grid-area: 2 / 4/ 3 / 5;
+        background-image: url(bnnw.jpg);
+        background-size: cover;
+        width: 60vh; 
+        height: 30vh;
+        }
+
+    .image3 { grid-area: 2 / 4 / 3 / 5;
+            background-image: url(kill.JPG);
+            background-size: 50%;
+            width: 60vh; 
+            height: 30vh;
+            }
+
+
+
+
+    .descri { grid-area: 2 / 3 / 3 / 4;
+    letter-spacing: 10px;
+    font-weight: bold; }
+
+.cred {
+    letter-spacing: 7px;
+    font-size: 13px;
+    font-weight: normal;
+}
