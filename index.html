@@ -3,9 +3,10 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MONAOTO</title>
+    <title>MONAEDEN</title>
 
     <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
   </head>
 
 
@@ -19,15 +20,23 @@
 <ul class="nav-list">
 
   <li class="nav-item">
-    <a href="about.html">
+    <a href="">
       ABOUT
+      
     </a>
-  </li>
+    <button data-modal-target="#modal">o</button>
+    <div class="modal" id="modal"> 
+   <div class="modal-header">
+      <button  data-close-button class="close-button">&times;</button>
+      </div>
+      <div class="modal-body">Monaoto is a 19 y/o photographer who works on bodies and cinematic vision 
+        contact: ultramonaverse@gmail.com
+        @monaeden_
+        @monaoto_
 
-  <li class="nav-item">
-    <a href="contact.html">
-      SHOP
-    </a>
+      </div>
+    </div>
+    <div id="overlay"></div>
   </li>
 
   <li class="nav-item">
@@ -93,7 +102,7 @@
 
     
       <div class="titre" style="max-width:100%;height:auto ;">
-          <span class="tt">MONAOTO ©</span>
+          <span class="tt">MONAEDEN ©</span>
 
       </div>
 
